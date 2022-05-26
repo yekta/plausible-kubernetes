@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: plausible
-  namespace: plausible
+  namespace: plausible-banano
 spec:
   selector:
     matchLabels:
